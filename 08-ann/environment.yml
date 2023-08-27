@@ -1,0 +1,19 @@
+name: ann
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - pytables
+  - pip
+  - pip: 
+    - jupyterlab
+    - tensorflow
+    - scikeras
+    - matplotlib
+    - seaborn
+    - scipy
+    - scikit-learn
+

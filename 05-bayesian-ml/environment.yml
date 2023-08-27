@@ -1,0 +1,17 @@
+name: bayesian
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pymc
+  - python-graphviz
+  - pip
+  - pip:  
+    - jupyterlab
+    - matplotlib
+    - seaborn
+    - scipy
+    - scikit-learn
+    - arviz
+    - statsmodels

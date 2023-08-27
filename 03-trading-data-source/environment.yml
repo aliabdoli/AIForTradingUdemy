@@ -1,0 +1,11 @@
+name: downloader
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - pip
+  - pip:
+    - chardet
+    - jupyterlab
+    - alpha_vantage
+    - MetaTrader5

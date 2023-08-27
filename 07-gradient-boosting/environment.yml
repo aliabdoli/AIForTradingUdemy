@@ -1,0 +1,20 @@
+name: boosting
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - pytables
+  - python-graphviz
+  - pip
+  - pip: 
+    - lightgbm 
+    - statsmodels
+    - jupyterlab
+    - matplotlib
+    - seaborn
+    - scipy
+    - scikit-learn
+    - tqdm

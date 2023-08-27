@@ -1,0 +1,15 @@
+name: trees
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - python-graphviz
+  - pip
+  - pip:  
+    - jupyterlab
+    - matplotlib
+    - seaborn
+    - scipy
+    - scikit-learn
+

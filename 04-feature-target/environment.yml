@@ -1,0 +1,11 @@
+name: feature
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - pip
+  - pip:
+    - jupyterlab
+    - matplotlib
+    - seaborn
+    - pandas_ta

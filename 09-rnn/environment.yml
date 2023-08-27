@@ -1,0 +1,17 @@
+name: rnn
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pandas
+  - numpy
+  - pytables
+  - pip
+  - pip: 
+    - jupyterlab
+    - tensorflow
+    - matplotlib
+    - seaborn
+    - scipy
+    - scikit-learn
